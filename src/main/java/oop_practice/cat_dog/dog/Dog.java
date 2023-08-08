@@ -5,7 +5,7 @@ import oop_practice.cat_dog.animal.Animal;
 public class Dog extends Animal {
 
     public Dog(String name) {
-        this.setName(name);
+        super(name);
     }
 
     public void sound() {
